@@ -10,14 +10,34 @@
 <body>
     <header>
         <nav>
-            <div>cadastro cliente</div>
-            <div>cadastro funcionario</div>
-            <div>cadastro produto</div>
-            <div>cadastro fornecedor</div>
-            <div>consulta cliente</div>
-            <div>consulta funcionario</div>
-            <div>consulta produto</div>
-            <div>consulta fornecedor</div>
+            <div>
+                <h3>Cliente</h3>
+                <div class="nav-item">
+                   <a href="./cadastro_cliente.php">cadastro cliente</a>
+                    <div>consulta cliente</div>
+                </div>
+            </div>
+            <div>
+                <h3>funcionario</h3>
+                <div class="nav-item">
+                    <div>cadastro funcionario</div>
+                    <div>consulta funcionario</div>
+                </div>
+            </div>
+            <div>
+                <h3>Produto</h3>
+                <div class="nav-item">
+                    <div>cadastro produto</div>
+                    <div>consulta produto</div>
+                </div>
+            </div>
+            <div>
+                <h3>Fornecedor</h3>
+                <div class="nav-item">
+                    <div>cadastro fornecedor</div>
+                    <div>consulta fornecedor</div>
+                </div>
+            </div>
         </nav>
     </header>
     <h3>Menu</h3>
