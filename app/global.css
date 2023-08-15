@@ -1,0 +1,15 @@
+.drop-down-nav ~ div{
+    position: absolute;
+    left: 0;
+    top: 64px;
+    display: none;
+}
+
+ul li div a{
+    padding: 16px 32px;
+    display: block;
+}
+
+.drop-down-nav ~ div:hover, .drop-down-nav:hover ~ div{
+    display: block;
+}
