@@ -48,6 +48,23 @@
                     <div class="w-full md:w-2/3 lg:w-1/3 p-8 pt-12 pb-8 md:rounded-lg bg-white">
                         <h2 class="text-xl my-2">Produto PHP</h2>
                         <form action="../home.php">
+                            <?php
+                                include_once("../../backend/conexao.php");
+
+                                $sql = "select * from tb_produto;";
+
+                                foreach ($conn->query($sql) as $row) {
+                                    echo "<div class='grid grid-cols-5'>";
+                                    echo "<div class='my-2'>" . $row['nm_produto'] . "</div>";
+                                    echo "<div class='my-2'>" . $row['nm_tipo'] . "</div>";
+                                    echo "<div class='my-2'>" . $row['nm_tamanho'] . "</div>";
+                                    echo "<div class='my-2'>" . $row['nm_tipo'] . "</div>";
+                                    echo "<div class='my-2'>" . $row['nm_tamanho'] . "</div>";
+                                    echo "</div>";
+                                }
+
+                                $conn = null;
+                            ?>
                             <button class="w-full px-2 py-1 my-4 border border-black bg-green-300">Enviar</button>
                         </form>
                     </div>
