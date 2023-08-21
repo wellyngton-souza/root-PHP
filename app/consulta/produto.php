@@ -58,14 +58,13 @@
                                     echo "<div class='my-2'>" . $row['nm_produto'] . "</div>";
                                     echo "<div class='my-2'>" . $row['nm_tipo'] . "</div>";
                                     echo "<div class='my-2'>" . $row['nm_tamanho'] . "</div>";
-                                    echo "<div class='my-2'>" . $row['nm_tipo'] . "</div>";
-                                    echo "<div class='my-2'>" . $row['nm_tamanho'] . "</div>";
+                                    echo "<div class='my-2 mx-2'>" . $row['nm_valor'] . "</div>";
+                                    echo "<div class='my-2'>" . $row['validade'] . "</div>";
                                     echo "</div>";
                                 }
 
                                 $conn = null;
                             ?>
-                            <button class="w-full px-2 py-1 my-4 border border-black bg-green-300">Enviar</button>
                         </form>
                     </div>
                 </div>

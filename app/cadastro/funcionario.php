@@ -16,21 +16,21 @@
                     <li>
                         <p class="h-16 drop-down-nav flex items-center cursor-pointer">Consulta</p>
                         <div class="w-64 bg-green-500">
-                            <a class="hover:font-bold" href="./cliente.php">cliente</a>
-                            <a class="hover:font-bold" href="./funcionario.php">funcionario</a>
-                            <a class="hover:font-bold" href="./fornecedor.php">fornecedor</a>
-                            <a class="hover:font-bold" href="./produto.php">produto</a>
-                            <a class="hover:font-bold" href="./usuario.php">usuario</a>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="h-16 drop-down-nav flex items-center ml-8 cursor-pointer">Cadastro</p>
-                        <div class="w-64 bg-orange-500">
                             <a class="hover:font-bold" href="../consulta/cliente.php">cliente</a>
                             <a class="hover:font-bold" href="../consulta/funcionario.php">funcionario</a>
                             <a class="hover:font-bold" href="../consulta/fornecedor.php">fornecedor</a>
                             <a class="hover:font-bold" href="../consulta/produto.php">produto</a>
                             <a class="hover:font-bold" href="../consulta/usuario.php">usuario</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="h-16 drop-down-nav flex items-center ml-8 cursor-pointer">Cadastro</p>
+                        <div class="w-64 bg-orange-500">
+                            <a class="hover:font-bold" href="./cliente.php">cliente</a>
+                            <a class="hover:font-bold" href="./funcionario.php">funcionario</a>
+                            <a class="hover:font-bold" href="./fornecedor.php">fornecedor</a>
+                            <a class="hover:font-bold" href="./produto.php">produto</a>
+                            <a class="hover:font-bold" href="./usuario.php">usuario</a>
                         </div>
                     </li>
                 </ul>
@@ -47,27 +47,57 @@
                 <div class="min-h-screen pt-16 md:pt-0 md:flex items-center justify-center md:bg-gray-200">
                     <div class="w-full md:w-2/3 lg:w-1/3 p-8 pt-24 pb-16 md:rounded-lg bg-white">
                         <h2 class="text-xl my-2">Funcionario PHP</h2>
-                        <form action="../home.php">
+                        <form action="../../backend/insert/insertFuncionario.php" method="post">
                             <h4>Nome</h4>
-                            <input class="w-full px-2 py-1 mb-4 border border-black" type="text">
+                            <input class="w-full px-2 py-1 mb-4 border border-black"
+                             type="text"
+                             name="nome"
+                            >
                             <h4>CPF</h4>
-                            <input class="w-full px-2 py-1 mb-4 border border-black" type="text">
+                            <input class="w-full px-2 py-1 mb-4 border border-black"
+                             type="text"
+                             name="cpf"
+                            >
                             <h4>RG</h4>
-                            <input class="w-full px-2 py-1 mb-4 border border-black" type="text">
+                            <input class="w-full px-2 py-1 mb-4 border border-black"
+                             type="text"
+                             name="rg"
+                            >
                             <h4>Rua</h4>
-                            <input class="w-full px-2 py-1 mb-4 border border-black" type="text">
+                            <input class="w-full px-2 py-1 mb-4 border border-black"
+                             type="text"
+                             name="rua"
+                            >
                             <h4>Bairro</h4>
-                            <input class="w-full px-2 py-1 mb-4 border border-black" type="text">
+                            <input class="w-full px-2 py-1 mb-4 border border-black"
+                             type="text"
+                             name="bairro"
+                            >
                             <h4>CEP</h4>
-                            <input class="w-full px-2 py-1 mb-4 border border-black" type="text">
+                            <input class="w-full px-2 py-1 mb-4 border border-black"
+                             type="text"
+                             name="cep"
+                            >
                             <h4>Cidade</h4>
-                            <input class="w-full px-2 py-1 mb-4 border border-black" type="text">
+                            <input class="w-full px-2 py-1 mb-4 border border-black"
+                             type="text"
+                             name="cidade"
+                            >
                             <h4>Estado</h4>
-                            <input class="w-full px-2 py-1 mb-4 border border-black" type="text">
+                            <input class="w-full px-2 py-1 mb-4 border border-black"
+                             type="text"
+                             name="estado"
+                            >
                             <h4>Telefone</h4>
-                            <input class="w-full px-2 py-1 mb-4 border border-black" type="text">
+                            <input class="w-full px-2 py-1 mb-4 border border-black"
+                             type="text"
+                             name="telefone"
+                            >
                             <h4>Gmail</h4>
-                            <input class="w-full px-2 py-1 mb-4 border border-black" type="text">
+                            <input class="w-full px-2 py-1 mb-4 border border-black"
+                             type="text"
+                             name="gmail"
+                            >
                             <h4>Foto</h4>
                             <input class="w-full px-2 py-1 mb-4 cursor-pointer border border-black" type="file" name="" id="">
                             <button class="w-full px-2 py-1 my-4 border border-black bg-green-300">Enviar</button>

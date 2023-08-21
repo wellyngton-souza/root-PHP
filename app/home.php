@@ -36,7 +36,7 @@
                 </ul>
             </div>
             <div class="flex items-center">
-                <h3 class="mr-4">usario</h3>
+                <h3 class="mr-4">usuario</h3>
                 <div class="w-8 h-8 rounded-full bg-blue-200"></div>
             </div>
         </nav>

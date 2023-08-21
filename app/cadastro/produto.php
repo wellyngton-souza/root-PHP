@@ -47,7 +47,7 @@
                 <div class="min-h-screen pt-16 md:pt-0 md:flex items-center justify-center md:bg-gray-200">
                     <div class="w-full md:w-2/3 lg:w-1/3 p-8 pt-12 pb-8 md:rounded-lg bg-white">
                         <h2 class="text-xl my-2">Produto PHP</h2>
-                        <form action="../../backend/insert/insert.php" method="POST">
+                        <form action="../../backend/insert/insertProduto.php" method="POST">
                             <h4>Nome</h4>
                             <input class="w-full px-2 py-1 mb-4 border border-black"
                              type="text"
