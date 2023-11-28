@@ -13,3 +13,7 @@ ul li div a{
 .drop-down-nav ~ div:hover, .drop-down-nav:hover ~ div{
     display: block;
 }
+
+.perfilaberto{
+    background-color: red;
+}
