@@ -11,6 +11,31 @@ create table tb_produto (
     validade varchar(100)
 );
 
+create table tb_cliente (
+	id_cliente int auto_increment primary key,
+    nm_cliente varchar(100),
+    cpf varchar(100),
+    rg varchar(100),
+    rua varchar(100),
+    bairro varchar(100),
+    cep varchar(100),
+    cidade varchar(100),
+    estado varchar(100),
+    telefone varchar(100),
+    gmail varchar(100)
+);
+
+create table tb_fornecedor (
+	id_cliente int auto_increment primary key,
+    nm_cliente varchar(100),
+    cpf varchar(100),
+    rg varchar(100),
+    rua varchar(100),
+    bairro varchar(100),
+    telefone varchar(100),
+    gmail varchar(100)
+);
+
 create table tb_funcionario (
 	id_funcionario int auto_increment primary key,
     nm_funcionario varchar(100),
@@ -25,6 +50,8 @@ create table tb_funcionario (
     gmail varchar(100)
 );
 
-select * from tb_funcionario;
-
-select * from tb_produto;
+create table tb_usuario(
+	cd_usuario int auto_increment primary key,
+    nm_gmail varchar(100),
+    nm_senha varchar(100)
+);
